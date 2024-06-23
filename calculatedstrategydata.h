@@ -2,23 +2,23 @@
 #define DATA_H
 #include<QString>
 
-
-class Data
+class CalculatedStrategyData
 {
 public:
-    Data(qint64 newSize,QString newName){
-        name=newName;
-        size=newSize;
+    CalculatedStrategyData() = default;
+    CalculatedStrategyData(QString newSign, qint64 newSize) {
+        sign = newSign;
+        size = newSize;
     }
     qint64 getSize(){
         return size;
     }
-    QString getName(){
-        return name;
+    QString getSign(){
+        return sign;
     }
 private:
     qint64 size;
-    QString name;
+    QString sign;
 };
 
 #endif // DATA_H

@@ -18,10 +18,12 @@ SOURCES += main.cpp \
     calculationstrategy.cpp \
     calculationstrategybyfolder.cpp \
     calculationstaretegybytype.cpp \
-    calculatedstrategydata.cpp
+    calculatedstrategydata.cpp \
+    percentfolderdata.cpp
 
 HEADERS += \
     calculationstrategy.h \
     calculationstrategybyfolder.h \
     calculationstaretegybytype.h \
-    calculatedstrategydata.h
+    calculatedstrategydata.h \
+    percentfolderdata.h
